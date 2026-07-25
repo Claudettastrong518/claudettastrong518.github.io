@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site com Fundo Radical</title>
+    <style>
+        /* Configurações básicas para o corpo da página */
+        body {
+            /* 1. Define a imagem de fundo */
+            background-image: url('carro-fundo.jpg'); /* Mude o nome aqui se salvou diferente */
+            
+            /* 2. Garante que a imagem cubra toda a área disponível */
+            background-size: cover;
+            
+            /* 3. Centraliza a imagem na tela */
+            background-position: center center;
+            
+            /* 4. Fixa o fundo, assim ele não rola com o conteúdo */
+            background-attachment: fixed;
+            
+            /* 5. Impede que a imagem se repita (lado a lado) */
+            background-repeat: no-repeat;
+            
+            /* 6. Cor de fundo reserva caso a imagem não carregue */
+            background-color: #000000;
+
+            /* Configurações de texto para legibilidade */
+            color: white; /* Texto branco no fundo escuro */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Faz o corpo ter a altura total da tela */
+        }
+
+        /* Estilo opcional para um container de conteúdo legível */
+        .conteudo {
+            background-color: rgba(0, 0, 0, 0.6); /* Fundo preto semi-transparente */
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #ff0000; /* Borda vermelha combinando com o carro */
+            text-align: center;
+            max-width: 600px;
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #ff3333; /* Vermelho vibrante para o título */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Este é o seu conteúdo sobre o fundo -->
+    <div class="conteudo">
+        <h1>BEM-VINDO AO MEU NOVO SITE</h1>
+        <p>A imagem de fundo está configurada para ser 'fixa' e preencher toda a tela, mantendo o visual impactante do carro e dos polígonos.</p>
+        <p>Role a página se houver mais conteúdo e veja o fundo permanecer estável.</p>
+    </div>
+
+</body>
+</html>
+
